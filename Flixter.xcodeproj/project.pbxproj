@@ -19,6 +19,10 @@
 		ADD2DBF7285A46E700B95C6E /* FlixterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD2DBF6285A46E700B95C6E /* FlixterUITests.m */; };
 		ADD2DBF9285A46E700B95C6E /* FlixterUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD2DBF8285A46E700B95C6E /* FlixterUITestsLaunchTests.m */; };
 		ADD2DC07285A8E7D00B95C6E /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD2DC06285A8E7D00B95C6E /* MovieViewController.m */; };
+		ADF1CBB7285CEC410019C92F /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1CBB6285CEC410019C92F /* MovieCell.m */; };
+		ADF1CBBA285D00970019C92F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1CBB9285D00970019C92F /* DetailsViewController.m */; };
+		ADF1CBC0285D2C470019C92F /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1CBBF285D2C470019C92F /* MovieCollectionViewCell.m */; };
+		ADF1CBC3285D2E7F0019C92F /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1CBC2285D2E7F0019C92F /* CollectionViewController.m */; };
 		B2A7918942F9A0946935065C /* Pods_Flixter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ACDCE69CE92064E3ECD2F /* Pods_Flixter.framework */; };
 		D4F2E0200DA18454026C655E /* Pods_FlixterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090F175C9620BFF2BB2772E6 /* Pods_FlixterTests.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +71,14 @@
 		ADD2DBF8285A46E700B95C6E /* FlixterUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlixterUITestsLaunchTests.m; sourceTree = "<group>"; };
 		ADD2DC05285A8E7D00B95C6E /* MovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		ADD2DC06285A8E7D00B95C6E /* MovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		ADF1CBB5285CEC410019C92F /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		ADF1CBB6285CEC410019C92F /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		ADF1CBB8285D00970019C92F /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		ADF1CBB9285D00970019C92F /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		ADF1CBBE285D2C470019C92F /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		ADF1CBBF285D2C470019C92F /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
+		ADF1CBC1285D2E7F0019C92F /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		ADF1CBC2285D2E7F0019C92F /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		CC1ACDCE69CE92064E3ECD2F /* Pods_Flixter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D71194B5AD44CED17E44C3 /* Pods-FlixterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixterTests.release.xcconfig"; path = "Target Support Files/Pods-FlixterTests/Pods-FlixterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,12 +156,20 @@
 				ADD2DBD6285A46E400B95C6E /* ViewController.h */,
 				ADD2DBD7285A46E400B95C6E /* ViewController.m */,
 				ADD2DBD9285A46E400B95C6E /* Main.storyboard */,
+				ADF1CBC1285D2E7F0019C92F /* CollectionViewController.h */,
+				ADF1CBC2285D2E7F0019C92F /* CollectionViewController.m */,
+				ADF1CBBE285D2C470019C92F /* MovieCollectionViewCell.h */,
+				ADF1CBBF285D2C470019C92F /* MovieCollectionViewCell.m */,
+				ADF1CBB8285D00970019C92F /* DetailsViewController.h */,
+				ADF1CBB9285D00970019C92F /* DetailsViewController.m */,
 				ADD2DBDC285A46E600B95C6E /* Assets.xcassets */,
 				ADD2DBDE285A46E600B95C6E /* LaunchScreen.storyboard */,
 				ADD2DC05285A8E7D00B95C6E /* MovieViewController.h */,
 				ADD2DC06285A8E7D00B95C6E /* MovieViewController.m */,
 				ADD2DBE1285A46E600B95C6E /* Info.plist */,
 				ADD2DBE2285A46E600B95C6E /* main.m */,
+				ADF1CBB5285CEC410019C92F /* MovieCell.h */,
+				ADF1CBB6285CEC410019C92F /* MovieCell.m */,
 			);
 			path = Flixter;
 			sourceTree = "<group>";
@@ -192,6 +212,7 @@
 				ADD2DBC9285A46E400B95C6E /* Sources */,
 				ADD2DBCA285A46E400B95C6E /* Frameworks */,
 				ADD2DBCB285A46E400B95C6E /* Resources */,
+				53087CDBEA54E8DFE62827E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +250,7 @@
 				ADD2DBEE285A46E700B95C6E /* Sources */,
 				ADD2DBEF285A46E700B95C6E /* Frameworks */,
 				ADD2DBF0285A46E700B95C6E /* Resources */,
+				23489E0DA204785AF981CE1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +354,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		23489E0DA204785AF981CE1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flixter-FlixterUITests/Pods-Flixter-FlixterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flixter-FlixterUITests/Pods-Flixter-FlixterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flixter-FlixterUITests/Pods-Flixter-FlixterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53087CDBEA54E8DFE62827E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flixter/Pods-Flixter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flixter/Pods-Flixter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flixter/Pods-Flixter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5849A377928000F75990234F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,9 +441,13 @@
 			files = (
 				ADD2DBD8285A46E400B95C6E /* ViewController.m in Sources */,
 				ADD2DC07285A8E7D00B95C6E /* MovieViewController.m in Sources */,
+				ADF1CBB7285CEC410019C92F /* MovieCell.m in Sources */,
+				ADF1CBC0285D2C470019C92F /* MovieCollectionViewCell.m in Sources */,
 				ADD2DBD2285A46E400B95C6E /* AppDelegate.m in Sources */,
+				ADF1CBBA285D00970019C92F /* DetailsViewController.m in Sources */,
 				ADD2DBE3285A46E600B95C6E /* main.m in Sources */,
 				ADD2DBD5285A46E400B95C6E /* SceneDelegate.m in Sources */,
+				ADF1CBC3285D2E7F0019C92F /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
